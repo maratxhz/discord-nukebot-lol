@@ -3,7 +3,7 @@ from discord.ext import commands
 from discord import *
 
 
-TOKEN = 'NzY4MzY5MzU3NjQxMjIwMDk2.X4_dug.WEzO3mY7dNAwXwskWzTBk-qVBKY'
+TOKEN = 'include your token here'
  
 
 class bot_commands(commands.Bot):
@@ -61,7 +61,7 @@ def run_commands():
             except: failed.append(channel.name)
             else: counter += 1
         fmt = ", ".join(failed)
-        await ctx.send(f"Удалено {counter} каналов. {f'Не удалил: {fmt}' if len(failed) > 0 else ''}")
+        await ctx.send(f" {counter} channels deleted. {f' {fmt} was not deleted' if len(failed) > 0 else ''}")
         
 
         

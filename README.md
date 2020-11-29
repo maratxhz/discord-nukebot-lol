@@ -3,10 +3,10 @@
 >>	to add your bo to your server go through "https://discord.com/oauth2/authorize?client_id=CLID&scope=bot&permissions=8:" remove CLID drom an andress and add yours bot client id.
 
 
-##installing 
+## installing 
 >open cmd and write "pip3 install discord"
 >>download files "bot.py" and "server.bat" 
 >>>upload it to a folder and run "server.bat"
 
 
-###enjoy nuking servers!
+### enjoy nuking servers!

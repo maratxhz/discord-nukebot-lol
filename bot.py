@@ -23,15 +23,6 @@ def run_commands():
     async def clear(ctx, amount=10):
         await ctx.channel.purge(limit=amount)  
 
-
-    @bot.command(pass_context=True)     
-    async def kickall(ctx):
-        for m in ctx.guild.members:
-            try:
-                await m.kick(reason="По просьбе")
-            except:
-                pass
-
                 
     @bot.command(pass_context=True)         
     async def banall(ctx):

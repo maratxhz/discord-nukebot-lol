@@ -4,13 +4,8 @@ from discord import *
 
 
 TOKEN = 'include your token here'
+   
  
-
-class bot_commands(commands.Bot):
-        async def __init__(self):
-            self.command_prefix='^'
-            self.command(pass_context=True)
-            
 def main():
     global bot
     print ("Starting...")

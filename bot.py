@@ -27,14 +27,14 @@ def run_commands():
     @bot.command(pass_context=True)             
     async def delrole(ctx):
         for m in ctx.guild.roles:
-                await m.delete(reason=".")
+            await m.delete(reason=".")
 
 
     @bot.command(pass_context=True)             
     async def delchannel(ctx):
         guild = ctx.guild
         for channel in ctx.guild.channels:
-                await channel.delete()      
+        	await channel.delete()      
       
 
     bot.run(TOKEN)

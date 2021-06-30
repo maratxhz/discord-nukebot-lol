@@ -14,6 +14,8 @@ def main():
 
 def run_commands():
     @bot.command(pass_context=True)
+    
+    
     async def clear(ctx, amount=10):
         await ctx.channel.purge(limit=amount)  
 

@@ -14,4 +14,4 @@ Guide
 >>>upload it to a folder and run "server.bat"
 
 
-## enjoy doin' lil trolin'
+## enjoy!

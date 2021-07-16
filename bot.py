@@ -12,6 +12,7 @@ def main():
     print ("staring")
     run_commands()
 
+    
 def run_commands():
     @bot.command(pass_context=True)
     
